@@ -9,9 +9,10 @@ componetWillDidMount
 componetWillReceiveProps
 //コンポーネントがPropsの値を受け取った際に呼ばれるメソット
 shouldComponentUpdate
-
+//明示的な差分表示
+// true or falseを返す
 componentWillUpdate
-
+// React v17.0ではいし
 componentDidUpDate
 
 componentWillUnmount
