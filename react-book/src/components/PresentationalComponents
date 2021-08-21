@@ -1,2 +1,10 @@
 Presentational「表現」　Container「容器」
 分離させることでコンポーネントの再利用性を向上させる
+
+Presentational Containerの実装で注意することは、他の要素の状態に依存してはいけない。
+決まった値を渡せば期待通りに動作することは、使いやすいコンポーネントとして最大の特徴。
+
+Container　Componentsはシンプルを重視。
+Presentational Containerを内包し、ほとんどの場合は自身に具体的なDOMは持たない。
+
+UIの描画は子コンポーネントが負う責務であり、データを渡してしまえばコンポーネントの自身の仕事は終わり
